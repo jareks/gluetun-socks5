@@ -1,3 +1,12 @@
+# Gluetun fork with SOCKS5 server
+
+This is *alpha* version of Gluetun fork with SOCKS5 server. It is barely usable and just a proof of concept.
+It is based on [Gluetun](https://github.com/qdm12/gluetun) and [txthinking socks5](https://github.com/txthinking/socks5).
+
+Known issues:
+- username/password authentication is not working
+- gluetun context is not correctly passed to socks5 server
+
 # Gluetun VPN client
 
 Lightweight swiss-knife-like VPN client to multiple VPN service providers
